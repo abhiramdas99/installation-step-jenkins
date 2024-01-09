@@ -46,4 +46,14 @@ sudo systemctl status jenkins  # You can check the status of the Jenkins service
 ```
 
 # basic configuration 
+- open it in browser by the ip with port no 8080
+- unlock the jenking as the step
+- installed jenkins plugin
+- create  your 1st admin user
+- jenkins is ready and click there to enter to dashboard
+
+# Next create new pipeline  as per your projet requirement 
+
+
+
 
