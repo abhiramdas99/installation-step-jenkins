@@ -1,6 +1,6 @@
-# installation-step-jenkins
+# installation-step-jenkins on Ubuntu OS 
 
-Guys sometime we get lot of  eroro during jenkins installation
+Guys sometime we get lot of  error during jenkins installation
 - jenkins pacakge not found even if you update your machine many time
 
 
@@ -36,7 +36,14 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 sudo apt-get update
 
 sudo apt-get install jenkins
-
-
-
 ```
+
+- start jenkins
+```git
+sudo systemctl enable jenkins # You can enable the Jenkins service to start at boot with the command
+sudo systemctl start jenkins  #You can start the Jenkins service with the command
+sudo systemctl status jenkins  # You can check the status of the Jenkins service using the command
+```
+
+# basic configuration 
+
